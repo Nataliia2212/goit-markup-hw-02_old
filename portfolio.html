@@ -1,101 +1,178 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="./index.html" lang="en"><span class="accent">Web</span>Studio</a>
-            <ul>
-                <li><a href="">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
-            </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <nav class="navigation">
+        <a href="./index.html" lang="en" class="logo link">
+          <span class="accent">Web</span>Studio
+        </a>
+        <ul class="nav-list">
+          <li class="nav-list-item list">
+            <a href="./index.html" class="nav-list-link link">Студія</a>
+          </li>
+          <li class="nav-list-item list">
+            <a href="" class="nav-list-link link">Портфоліо</a>
+          </li>
+          <li class="nav-list-item list">
+            <a href="" class="nav-list-link link">Контакти</a>
+          </li>
         </ul>
+      </nav>
+      <ul class="contacts">
+        <li class="contacts-list list">
+          <a href="mailto:info@devstudio.com" class="contacts-list-link link"
+            >info@devstudio.com
+          </a>
+        </li>
+        <li class="contacts-list list">
+          <a href="tel:+380961111111" class="contacts-list-link link"
+            >+38 096 111 11 11
+          </a>
+        </li>
+      </ul>
     </header>
     <main>
-      <section>
+      <section class="portfolio">
         <h1>Портфоліо</h1>
         <ul>
-            <li><button type="button">Усі</button></li>
-            <li><button type="button">Веб-сайти</button></li>
-            <li><button type="button">Додатки</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+          <li class="list">
+            <button type="button" class="portfolio-btn">Усі</button>
+          </li>
+          <li class="list">
+            <button type="button" class="portfolio-btn">Веб-сайти</button>
+          </li>
+          <li class="list">
+            <button type="button" class="portfolio-btn">Додатки</button>
+          </li>
+          <li class="list">
+            <button type="button" class="portfolio-btn">Дизайн</button>
+          </li>
+          <li class="list">
+            <button type="button" class="portfolio-btn">Маркетинг</button>
+          </li>
         </ul>
-       <ul>
-        <li>
-            <img src="./images/portfolio1.jpg" alt="">
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-        </li>
-        <li>
-            <img src="./images/portfolio2.jpg" alt="">
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-        </li>
-        <li>
-            <img src="./images/portfolio3.jpg" alt="">
-            <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
-        </li>
-        <li>
-            <img src="./images/portfolio4.jpg" alt="">
-           <h2>Проєкт Prime</h2>
-            <p>Маркетинг</p>
-        </li>
-        <li>
-            <img src="./images/portfolio5.jpg" alt="">
-            <h2>Проєкт Boxes</h2>
-            <p>Додаток</p>
-        </li>
-        <li>
-            <img src="./images/portfolio6.jpg" alt="">
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-        </li>
-        <li>
-            <img src="./images/portfolio7.jpg" alt="">
-            <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
-        </li>
-        <li>
-            <img src="./images/portfolio8.jpg" alt="">
-           <h2>Проєкт LAB</h2>
-            <p>Маркетинг</p>
-        </li>
-        <li>
-            <img src="./images/portfolio9.jpg" alt="">
-           <h2>Growing Business</h2>
-            <p>Додаток</p>
-        </li>
-       </ul>
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img src="./images/portfolio1.jpg" alt="Веб-сайт персоналу" />
+              <h2 class="portfolio-title">Технокряк</h2>
+              <p class="portfolio-descr">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img
+                src="./images/portfolio2.jpg"
+                alt="Постер команд з баскетболу"
+              />
+              <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio-descr">Дизайн</p>
+            </a>
+          </li>
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img
+                src="./images/portfolio3.jpg"
+                alt="Логотип ресторану Сіафуд"
+              />
+              <h2 class="portfolio-title">Ресторан Seafood</h2>
+              <p class="portfolio-descr">Додаток</p>
+            </a>
+          </li>
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img src="./images/portfolio4.jpg" alt="Навушники" />
+              <h2 class="portfolio-title">Проєкт Prime</h2>
+              <p class="portfolio-descr">Маркетинг</p>
+            </a>
+          </li>
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img src="./images/portfolio5.jpg" alt="Картонні коробки" />
+              <h2 class="portfolio-title">Проєкт Boxes</h2>
+              <p class="portfolio-descr">Додаток</p>
+            </a>
+          </li>
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img
+                src="./images/portfolio6.jpg"
+                alt="Монітор з відкритим веб-сайтом"
+              />
+              <h2 class="portfolio-title">Inspiration has no Borders</h2>
+              <p class="portfolio-descr">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img src="./images/portfolio7.jpg" alt="Журнал" />
+              <h2 class="portfolio-title">Видання Limited Edition</h2>
+              <p class="portfolio-descr">Дизайн</p>
+            </a>
+          </li>
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img src="./images/portfolio8.jpg" alt="Етикетка" />
+              <h2 class="portfolio-title">Проєкт LAB</h2>
+              <p class="portfolio-descr">Маркетинг</p>
+            </a>
+          </li>
+          <li class="portfolio-list-item list">
+            <a href="" class="portfolio-list-link link">
+              <img src="./images/portfolio9.jpg" alt="Нетбук" />
+              <h2 class="portfolio-title">Growing Business</h2>
+              <p class="portfolio-descr">Додаток</p>
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
-    <footer>
-        <a href="" lang="en"><span class="accent">Web</span>Studio</a>
-        <address>
-            <ul>
-                <li>
-                    <a href="https://goo.gl/maps/4V4TuiHrdGHVnP1g9" target="_blank" rel="noopener noreferrer">
-                        м. Київ, пр-т Лесі Українки, 26
-                    </a>
-                </li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+    <footer class="footer">
+      <a href="" lang="en" class="footer-logo logo link"
+        ><span class="accent">Web</span>Studio</a
+      >
+      <address class="address">
+        <ul>
+          <li class="address-list list">
+            <a
+              href="https://goo.gl/maps/4V4TuiHrdGHVnP1g9"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="address-list-link link"
+            >
+              м. Київ, пр-т Лесі Українки, 26
+            </a>
+          </li>
+          <li class="address-list list">
+            <a
+              href="mailto:info@devstudio.com"
+              class="address-list-link address-list-contacts link"
+              >info@devstudio.com
+            </a>
+          </li>
+          <li class="address-list list">
+            <a
+              href="tel:+380961111111"
+              class="address-list-link address-list-contacts link"
+              >+38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </address>
     </footer>
-</body>
-
+  </body>
 </html>
