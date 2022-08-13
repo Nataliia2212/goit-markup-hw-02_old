@@ -49,9 +49,6 @@ header {
     color: var(--accent-color);
 }
 
-.nav-list {
-   
-}
 .nav-list-link {
     font-weight: 500;
     line-height: 1.14;
@@ -108,7 +105,8 @@ header {
 
 .button:hover,
 .button:focus {
-
+    background-color: #FFFFFF;
+    color:var(--accent-color) ;
 }
 /* ========END HERO======== */
 
@@ -169,9 +167,6 @@ header {
 
 .footer-logo {
     color: #ffffff;
-}
-.address {
-
 }
 
 .address-list-link {
